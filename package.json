@@ -1,0 +1,29 @@
+{
+  "name": "foodji-rest-api",
+  "version": "1.0.0",
+  "description": "foodji REST API test assignment",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "npx cypress",
+    "cypress:run": "npm run cypress -- run",
+    "cypress:open": "npm run cypress -- open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaven13/foodji-rest-api.git"
+  },
+  "keywords": [
+    "cypress",
+    "foodji",
+    "REST"
+  ],
+  "author": "Slaven Antic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slaven13/foodji-rest-api/issues"
+  },
+  "homepage": "https://github.com/slaven13/foodji-rest-api#readme",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}
