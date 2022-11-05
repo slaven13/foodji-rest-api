@@ -113,8 +113,6 @@ describe('foodji - REST API E2E tests', () => {
     }).then((reqRes) => {
       const { body } = reqRes;
 
-      console.log(reqRes);
-
       expect(reqRes.status).to.be.eq(200);
       expect(reqRes.statusText).to.be.eq('OK');
 
